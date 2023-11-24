@@ -27,7 +27,7 @@ if (currentHour < 10) {
   currentHour = `0${currentHour}`;
 }
 let day = days[currentDate.getDay()];
-let date = document.querySelector(".day");
-let time = document.querySelector(".time");
+let date = document.querySelector("#day");
+let time = document.querySelector("#time");
 time.innerHTML = `${currentHour}:${currentMinute}`;
 date.innerHTML = `${day}`;
